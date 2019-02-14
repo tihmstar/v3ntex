@@ -15,7 +15,7 @@ It is by no means necessary, but adds the missing flair ;)
  ```Darwin Kernel Version 18.2.0: Mon Nov 12 20:31:59 PST 2018; root:xnu-4903.232.2~1/RELEASE_ARM64_S5L8960X```   
 Get your own if you wanna run it on something else ;)~~
 
-Should support all devices, 12.0-12.1.2.
+Should work on all 4K devices on 12.0-12.1.2.
 
 Note:  
 Exploit can probably be slightly improved to replace at least one non-deterministic component.
