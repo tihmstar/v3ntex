@@ -73,11 +73,8 @@ kern_return_t dumpSomeKernel(task_t tfp0, kptr_t kbase, void *data){
     uname(&ustruct);
     printf("kern=%s\n",ustruct.version);
 
-    
-    mach_port_t tfp0 = 0;
-    kptr_t kbase = 0;
-    v3ntex(dumpSomeKernel,NULL);
-    
+    mach_port_t tfp0 = v3ntex();
+    if (tfp0) dumpSomeKernel(tfp0, kbase, NULL);
     
 }
 
